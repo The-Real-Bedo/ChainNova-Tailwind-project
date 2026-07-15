@@ -6,33 +6,32 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="css/all.css">
     <title>ChainNova</title>
-
 </head>
+
 <body>
-    
-    
+
 <header>
-  <nav class="w-full p-4 fixed top-0 z-10 bg-slate-100/50 shadow-md  font-sans">
+  <nav class="w-full p-2 fixed top-0 z-10 backdrop-blur-sm border-b border-white/20 bg-white/70 shadow-md  font-sans">
 
     <div class="container h-full w-80% m-auto">
 
-      <div class="h-full flex justify-between flex-wrap items-center"> <!-- parent -->
+      <div class="h-full space-x-12 sm:space-x-32 flex lg:justify-between flex-wrap items-center"> <!-- parent -->
       <div class="">
-        <a href=""><span class="text-sky-700 text-3xl font-normal">Chain<span class="font-serif italic text-4xl text-fuchsia-500 relative top-0.5">N</span>ova</span></a>
-        <span class="bg-gradient-to-tl from-blue-400 via-purple-400 to-pink-400 px-2 py-1 rounded-3xl text-white text-sm animate-bounce relative -top-2">Web3 Solutions</span>
+        <a href=""><span class="text-sky-700 text-xl lg:text-2xl font-bold lg:font-semibold">Chain<span class="font-serif italic text-4xl text-fuchsia-500 relative top-1">N</span>ova</span></a>
+        <span class="backdrop-blur-sm border border-white/50  shadow-xl bg-white/20  px-1 md:px-2 py-1 rounded-3xl text-slate-900 text-[10px] animate-bounce relative -top-2 ">Web3 Solutions</span>
         </div> <!-- /logo -->
 
-      <div class="p-0 m-0">
-        <ul class="flex space-x-10 font-semibold tracking-wide text-cyan-900">
-          <li class="hover:-translate-y-1 transition-all duration-300 border-b-2 border-violet-900 hover:bg-sky-100 shadow-xl hover:shadow-slate-600 px-2 py-0.5 rounded-3xl active:scale-75"><a href="#home" class="hover:text-blue-600">Home</a></li>
-          <li class="hover:-translate-y-1 transition-all duration-300 border-b-2 border-violet-900 hover:bg-sky-100 shadow-xl hover:shadow-slate-600 px-2 py-0.5 rounded-3xl active:scale-75"><a href="#services" class="hover:text-blue-600">Services</a></li>
-          <li class="hover:-translate-y-1 transition-all duration-300 border-b-2 border-violet-900 hover:bg-sky-100 shadow-xl hover:shadow-slate-600 px-2 py-0.5 rounded-3xl active:scale-75"><a href="#stats" class="hover:text-blue-600">Stats</a></li>
-          <li class="hover:-translate-y-1 transition-all duration-300 border-b-2 border-violet-900 hover:bg-sky-100 shadow-xl hover:shadow-slate-600 px-2 py-0.5 rounded-3xl active:scale-75"><a href="#team" class="hover:text-blue-600">Team</a></li>
-          <li class="hover:-translate-y-1 transition-all duration-300 border-b-2 border-violet-900 hover:bg-sky-100 shadow-xl hover:shadow-slate-600 px-2 py-0.5 rounded-3xl active:scale-75"><a href="#contact" class="hover:text-blue-600 ">Contact</a></li>
+      <div class="p-0 m-0 hidden md:block ">
+        <ul class="flex space-x-10 font-semibold tracking-wide text-black">
+          <li class="hover:-translate-y-1 transition-all duration-200 focus:outline-red-700 hover:bg-white shadow-sm border-none shadow-slate-400 hover:shadow-slate-600 px-3 py-1.5 rounded-xl active:scale-90 focus:border-4"><a href="#home" class="hover:text-blue-600">Home</a></li>
+          <li class="hover:-translate-y-1 transition-all duration-200 hover:bg-white shadow-sm border-none shadow-slate-400 hover:shadow-slate-600 px-3 py-1.5 rounded-xl active:scale-90"><a href="#services" class="hover:text-blue-600">Services</a></li>
+          <li class="hover:-translate-y-1 transition-all duration-200 hover:bg-white shadow-sm border-none shadow-slate-400 hover:shadow-slate-600 px-3 py-1.5 rounded-xl active:scale-90"><a href="#stats" class="hover:text-blue-600">Stats</a></li>
+          <li class="hover:-translate-y-1 transition-all duration-200 hover:bg-white shadow-sm border-none shadow-slate-400 hover:shadow-slate-600 px-3 py-1.5 rounded-xl active:scale-90"><a href="#team" class="hover:text-blue-600">Team</a></li>
+          <li class="hover:-translate-y-1 transition-all duration-200 hover:bg-white shadow-sm border-none shadow-slate-400 hover:shadow-slate-600 px-3 py-1.5 rounded-xl active:scale-90"><a href="#contact" class="hover:text-blue-600 ">Contact</a></li>
         </ul>
       </div> <!-- /links -->
 
-      <button class="bg-sky-700 py-2 px-4 rounded-lg text-white ring-blue-400 hover:ring-4 transition-all duration-200 active:scale-75">Book a Consultation</button>
+      <button class="bg-sky-700 text-xs rounded-md lg:rounded-lg py-2 px-1 sm:py-3 sm:px-3 text-white md:shadow-2xl shadow-slate-900 md:animate-bounce hover:animate-none ring-blue-400 hover:ring-4 transition-all duration-300 active:scale-90 translate-y-0.5 ">Book a Consultation</button>
      </div> <!-- /parent -->
 
     </div><!-- /container -->
@@ -43,26 +42,27 @@
  <!-- main section -->
 <main id="home">
     <div class="container h-screen m-auto flex items-center " >
-      <div class="flex flex-wrap items-center h-1/2 w-full mt-14"><!-- parent -->
+      <div class="flex flex-row flex-wrap items-center h-full lg:h-1/2 w-full mt-14"><!-- parent -->
 
-        <div class="w-1/2"><!-- Hero-text -->
-          <h2 class="font-bold text-5xl tracking-wide">Build Secure <span class="bg-gradient-to-br from-blue-800  via-purple-400 to-sky-500 bg-clip-text text-transparent">Blockchain Solutions</span> for the Next Generation</h2>
-          <p class="py-8 text-lg">We empower startups and enterprises with scalable blockchain technology, smart contracts, DeFi platforms, NFT marketplaces, and secure Web3 infrastructure.</p>
+        <div class=" -mt-16 pl-4 pr-16 sm:pr-36 sm:-mt-32 sm:pl-4 lg:p-0 lg:m-0 lg:w-1/2"><!-- Hero-text -->
+          <h2 class="font-bold text-3xl lg:text-5xl tracking-wide">Build Secure <span class="bg-gradient-to-br from-blue-800  via-purple-400 to-sky-500 bg-clip-text text-transparent">Blockchain Solutions</span> for the Next Generation.</h2>
+          <p class="py-6 leading-normal sm:pr-16">We empower startups and enterprises with scalable blockchain technology, smart contracts, DeFi platforms, NFT marketplaces, and secure Web3 infrastructure.</p>
 
-          <div class="flex flex-wrap text-sm font-medium space-x-4" >
-            <div><i class="fa-solid fa-calendar text-sky-700 text-lg"></i>      <span>8+ Years in Blockchain</span></div>
-            <div><i class="fa-solid fa-hands-bubbles text-sky-700 text-lg"></i> <span>450+ Projects</span></div>
-            <div><i class="fa-solid fa-people-group text-sky-700 text-lg"></i>  <span>40+ Web3 Experts</span></div>
+          <div class=" flex flex-col lg:flex-row flex-wrap text-sm font-medium lg:space-x-4" >
+            <div><i class="fa-solid fa-calendar text-sky-700 text-lg"></i>      8+ <span>  Years in Blockchain</span></div>
+            <div><i class="fa-solid fa-people-group text-sky-700 text-lg"></i> 40+  <span>Web3 Experts</span></div>
+            <div><i class="fa-solid fa-hands-bubbles text-sky-700 text-lg"></i> 450+<span> Projects</span></div>
+            
           </div>
 
-          <div class="mt-10 font-semibold ">
-            <button class="bg-sky-700 rounded-xl p-5 px-14 mr-2 hover:cursor-pointer text-white transition-all duration-300 shadow-xl hover:shadow-2xl hover:shadow-sky-700 hover:-translate-y-2  active:scale-75 focus:ring-4 ring-blue-400">Build Your Project</button>
-            <button class="rounded-xl p-5 px-8 border-2 hover:cursor-pointer hover:text-sky-700 transition-all duration-300 shadow-xl hover:border-sky-700 hover:-translate-y-2 active:scale-75 focus:ring-2 ring-cyan-500"> <i class="fa-solid fa-magnifying-glass-arrow-right"></i> Explore Solutions</button>
+          <div class="mt-4 flex lg:mt-10 font-semibold ">
+            <button class="bg-sky-700 rounded-lg lg:rounded-xl text-xs px-6 py-4 lg:p-5 lg:px-14 sm:px-10 mr-4 hover:cursor-pointer text-white transition-all duration-300 shadow-xl shadow-2x hover:shadow-cyan-900 hover:-translate-y-2  active:scale-90 focus:ring-4 ring-blue-400">Build Your Project</button>
+            <button class="rounded-lg lg:rounded-xl  text-xs px-4 py-4 lg:p-5 lg:px-8 sm:px-10 border-2 hover:cursor-pointer hover:text-sky-700 transition-all duration-300 shadow-xl hover:border-sky-700 hover:-translate-y-2 active:scale-90 focus:ring-2 ring-cyan-500"> <i class="fa-solid fa-magnifying-glass-arrow-right"></i> Explore Solutions</button>
           </div>
 
         </div><!-- /Hero-text -->
 
-        <div class="w-1/2 h-full bg-blue-200 rounded-lg relative"> <!-- hero-img -->
+        <div class="w-full lg:w-1/2 h-full bg-blue-200 rounded-lg relative hidden lg:block"> <!-- hero-img -->
             <img src="./assets/her0-img2.png" alt="">
 
                 <!-- floating card -->
@@ -85,18 +85,18 @@
   <section id="services" >
     <div class="container h-screen m-auto">
 
-        <div class="flex flex-col flex-wrap text-center py-24"> <!-- heading -->
-          <h1 class="font-bold text-4xl">Our Integrated Services</h1>
-          <p class="py-4 font-normal tracking-wide text-gray-700 text-lg">We offer a comprehensive range of blockchain solutions to develope your idea.</p>
+        <div class="flex flex-col lg:flex-row flex-wrap text-center py-4 lg:py-24"> <!-- heading -->
+          <h1 class="font-bold text-lg lg:text-4xl">Our Integrated Services</h1>
+          <p class="py-4 font-normal tracking-wide text-gray-700 text-xs lg:text-lg">We offer a comprehensive range of blockchain solutions to bring your idea to reality.</p>
           <div class="w-40 h-1 bg-gradient-to-l from-blue-700 m-auto rounded-full"></div> <!-- line -->
         </div> <!-- /heading -->
 
-          <div class="flex flex-wrap flex-row flex-1 gap-8"><!-- cards parent -->
+          <div class="flex flex-col flex-wrap lg:flex-row flex-1 gap-0 lg:gap-8"><!-- cards parent -->
 
                 <!-- card1 -->
-              <div class="border-2 p-8 flex-1 rounded-xl hover:shadow-2xl hover:shadow-violet-400 border-l-8 border-l-fuchsia-500 hover:border-l-fuchsia-700 hover:border-b-fuchsia-700 hover:border-b-2 group transition-all duration-300"> 
+              <div class="border-2 p-8 flex-1 rounded-xl scale-90 lg:scale-100 hover:shadow-2xl hover:shadow-violet-400 border-l-8 border-l-fuchsia-500 hover:border-l-fuchsia-700 hover:border-b-fuchsia-700 hover:border-b-2 group transition-all duration-300"> 
                   <div class="size-16 rounded-lg bg-purple-200 text-center group-hover:bg-fuchsia-700 transition-all duration-300"><i class="fa-solid fa-file-contract text-3xl pt-4 text-purple-800 group-hover:text-white"></i></div>
-                  <h2 class="pt-8 font-bold text-2xl">Smart Contract Development</h2>
+                  <h2 class="pt-8 font-bold text-2xl border-b border-fuchsia-600 pb-4">Smart Contract Development</h2>
                   <p class="py-4 text-gray-800">Secure and audited smart contracts for Ethereum, BNB Chain, Solana, and other leading blockchain networks.</p>
                   <ul class="text-gray-800">
                     <li> <i class="fa-solid fa-arrow-right text-fuchsia-600 group-hover:animate-bounce"></i> Solidity Development</li>
@@ -106,9 +106,9 @@
               </div>
 
                 <!-- card2 -->
-              <div class="border-2 p-8 flex-1 rounded-xl hover:shadow-2xl hover:shadow-lime-300 border-l-8 border-l-lime-500 hover:border-l-lime-700 hover:border-b-lime-700 hover:border-b-2 group transition-all duration-300"> 
+              <div class="border-2 p-8 flex-1 rounded-xl scale-90 lg:scale-100 hover:shadow-2xl hover:shadow-lime-300 border-l-8 border-l-lime-500 hover:border-l-lime-700 hover:border-b-lime-700 hover:border-b-2 group transition-all duration-300"> 
                   <div class="size-16 rounded-lg bg-lime-200 text-center group-hover:bg-lime-800 transition-all duration-300"><i class="fa-solid fa-coins text-3xl pt-4 text-lime-800 group-hover:text-white "></i></div>
-                  <h2 class="pt-8 font-bold text-2xl">DeFi Platform Development</h2>
+                  <h2 class="pt-8 font-bold text-2xl border-b border-lime-600 pb-4">DeFi Platform Development</h2>
                   <p class="py-4 text-gray-800">Launch decentralized finance products with liquidity pools, staking systems, and yield farming protocols.</p>
                   <ul class="text-gray-800">
                     <li> <i class="fa-solid fa-arrow-right text-lime-600 group-hover:animate-bounce"></i> Liquidity Pools</li>
@@ -118,9 +118,9 @@
               </div>
 
                 <!-- card3 -->
-              <div class="border-2 p-8 flex-1 rounded-xl hover:shadow-2xl hover:shadow-sky-300 border-l-8 border-l-sky-500 hover:border-l-sky-700 hover:border-b-sky-700 hover:border-b-2 group transition-all duration-300"> 
+              <div class="border-2 p-8 flex-1 rounded-xl scale-90 lg:scale-100 hover:shadow-2xl hover:shadow-sky-300 border-l-8 border-l-sky-500 hover:border-l-sky-700 hover:border-b-sky-700 hover:border-b-2 group transition-all duration-300"> 
                   <div class="size-16 rounded-lg bg-sky-200 text-center group-hover:bg-sky-700 transition-all duration-300"><i class="fa-solid fa-wallet text-3xl pt-4 text-sky-800 group-hover:text-white "></i></div>
-                  <h2 class="pt-8 font-bold text-2xl">Web3 Integration</h2>
+                  <h2 class="pt-8 font-bold text-2xl border-b border-sky-600 pb-4">Web3 Integration</h2>
                   <p class="py-4 text-gray-800">Connect decentralized wallets and blockchain functionality directly into your web applications and Dapps.</p>
                   <ul class="text-gray-800">
                     <li> <i class="fa-solid fa-arrow-right text-sky-600 group-hover:animate-bounce"></i> Multi-chain APIs</li>
@@ -135,25 +135,25 @@
 
 
   <!-- 3rd section -->
-  <section class="w-full bg-gradient-to-tl from-blue-600 via-cyan-500 to-sky-600 shadow-2xl shadow-sky-900"  id="stats">
+  <section class="w-full bg-gradient-to-tl from-blue-600 via-cyan-500 to-sky-600 shadow-2xl shadow-sky-900 mt-[50rem]"  id="stats">
       <div class="container m-auto mt-10">
           <div class="flex flex-wrap gap-x-8 text-gray-100"><!-- parent -->
 
-            <div class="flex-1 text-center py-24">
-                <h2 class="font-bold text-5xl pb-2">+450</h2>
-                <span class="font-medium text-2xl">Enterprise Clients</span>
+            <div class="flex-1 text-center py-3 lg:py-24">
+                <h2 class="font-bold text-2xl lg:text-5xl pb-2">+450</h2>
+                <span class="font-medium text-lg lg:text-2xl leading-tight lg:leading-none">Enterprise Clients</span>
             </div>
-            <div class="flex-1 text-center py-24">
-                <h2 class="font-bold text-5xl pb-2">+32</h2>
-                <span class="font-medium text-2xl">Blockchain Engineers</span>
+            <div class="flex-1 text-center py-3 lg:py-24">
+                <h2 class="font-bold text-2xl lg:text-5xl pb-2">+32</h2>
+                <span class="font-medium text-lg lg:text-2xl leading-tight lg:leading-none">Blockchain Engineers</span>
             </div>
-            <div class="flex-1 text-center py-24">
-                <h2 class="font-bold text-5xl pb-2">+1200</h2>
-                <span class="font-medium text-2xl">Smart Contracts</span>
+            <div class="flex-1 text-center py-3 lg:py-24">
+                <h2 class="font-bold text-2xl lg:text-5xl pb-2">+1200</h2>
+                <span class="font-medium text-lg lg:text-2xl leading-tight lg:leading-none">Smart Contracts</span>
             </div>
-            <div class="flex-1 text-center py-24">
-                <h2 class="font-bold text-5xl pb-2">+15</h2>
-                <span class="font-medium text-2xl">Supported Networks</span>
+            <div class="flex-1 text-center py-3 lg:py-24">
+                <h2 class="font-bold text-2xl lg:text-5xl pb-2">+15</h2>
+                <span class="font-medium text-lg lg:text-2xl leading-tight lg:leading-none">Supported Networks</span>
             </div>
 
           </div><!-- /parent -->
@@ -162,83 +162,83 @@
 
 
   <!-- 4th section -->
-  <section id="team">
+  <section id="team" class="mb-[82rem]">
     <div class="container h-screen m-auto">
 
-      <div class="pt-24 pb-16 text-center"><!-- heading -->
-          <h1 class="pb-4 font-bold text-4xl">Core Team</h1>
-          <span class="font-normal tracking-wide text-gray-700 text-lg">The team that exerted all its efforts for the success of this company</span>
+      <div class="pt-24 pb-8 lg:pb-16 text-center"><!-- heading -->
+          <h1 class="pb-0 lg:pb-4 font-bold text-lg lg:text-4xl">Core Team</h1>
+          <span class="font-normal tracking text-gray-700 text-xs lg:text-lg">The team that exerted all its efforts for the success of this company</span>
         </div><!-- /heading -->
 
-      <div class="flex flex-1 flex-wrap flex-rwo gap-x-8 h-[60%] text-black text-center"><!-- parent -->
+      <div class="flex flex-1 lg:flex-wrap flex-col lg:flex-row gap-x-8 h-[60%] text-black text-center"><!-- parent -->
 
-        <div class="flex-1  rounded-3xl shadow-xl hover:shadow-2xl group"> <!-- member1 -->
+        <div class="flex-1 rounded-3xl shadow-xl hover:shadow-2xl scale-90 lg:scale-100 group"> <!-- member1 -->
             <div class="h-3/5 bg-white rounded-t-3xl pt-24 bg-gradient-to-tl from-blue-400 via-sky-200 to-sky-500 relative "> <!-- card-top -->
               <div class="absolute z-3 top-0 left-0 bg-blue-700/80 size-full text-blue-600 flex gap-x-4 rounded-t-3xl opacity-0 group-hover:opacity-100 transition-all duration-500"><!-- overlay -->
-                <div class="size-10 bg-white rounded-full pt-2 ml-[25%] mt-[40%] cursor-pointer hover:bg-gray-300"><i class="fa-brands fa-x-twitter"></i></div>
-                <div class="size-10 bg-white rounded-full pt-2 mt-[40%] cursor-pointer hover:bg-gray-300"><i class="fa-brands fa-linkedin-in"></i></div>
-                <div class="size-10 bg-white rounded-full pt-2 mt-[40%] cursor-pointer hover:bg-gray-300"><i class="fa-brands fa-facebook-f"></i></div>
+                <div class="size-10 bg-white rounded-full pt-2 lg:ml-[25%] lg:mt-[40%] cursor-pointer hover:bg-gray-300"><i class="fa-brands fa-x-twitter"></i></div>
+                <div class="size-10 bg-white rounded-full pt-2 lg:mt-[40%] cursor-pointer hover:bg-gray-300"><i class="fa-brands fa-linkedin-in"></i></div>
+                <div class="size-10 bg-white rounded-full pt-2 lg:mt-[40%] cursor-pointer hover:bg-gray-300"><i class="fa-brands fa-facebook-f"></i></div>
               </div><!-- /overlay -->
 
-              <div class="size-24 rounded-full m-auto bg-[url('./assets/team-1.jpg')] bg-cover"></div>
+              <div class="lg:size-24 size-32 rounded-full m-auto -mt-8 lg:mt-0 bg-[url('./assets/team-1.jpg')] bg-cover"></div>
 
             </div>
-            <div class="p-4"> <!-- card-bottom -->
-                <h2 class="pt-4 font-semibold text-2xl tracking-wide">Daniel Carter</h2> 
+            <div class="p-4 pb-24 lg:pb-0"> <!-- card-bottom -->
+                <h2 class="pt-2 lg:pt-4 font-semibold text-2xl tracking-wide">Daniel Carter</h2> 
                 <p class="text-sm font-normal text-blue-700">Blockchain Architect</p>
                 <p class="py-4 text-sm">Specialized in scalable Layer-1 and Layer-2 blockchain infrastructure.</p>
             </div>
         </div>
 
-        <div class="flex-1  rounded-3xl shadow-xl hover:shadow-2xl group"> <!-- member2 -->
+        <div class="flex-1  rounded-3xl shadow-xl hover:shadow-2xl scale-90 lg:scale-100 group"> <!-- member2 -->
             <div class="h-3/5 bg-white rounded-t-3xl pt-24 bg-gradient-to-tl from-pink-400 via-purple-300 to-fuchsia-400 relative "> <!-- card-top -->
               <div class="absolute z-3 top-0 left-0 bg-pink-600/80 size-full text-blue-600 flex gap-x-4 rounded-t-3xl opacity-0 group-hover:opacity-100 transition-all duration-500"><!-- overlay -->
-                <div class="size-10 bg-white rounded-full pt-2 ml-[25%] mt-[40%] cursor-pointer hover:bg-gray-300"><i class="fa-brands fa-x-twitter"></i></div>
-                <div class="size-10 bg-white rounded-full pt-2 mt-[40%] cursor-pointer  hover:bg-gray-300"><i class="fa-brands fa-linkedin-in"></i></div>
-                <div class="size-10 bg-white rounded-full pt-2 mt-[40%] cursor-pointer  hover:bg-gray-300"><i class="fa-brands fa-facebook-f"></i></div>
+                <div class="size-10 bg-white rounded-full pt-2 lg:ml-[25%] lg:mt-[40%] cursor-pointer hover:bg-gray-300"><i class="fa-brands fa-x-twitter"></i></div>
+                <div class="size-10 bg-white rounded-full pt-2 lg:mt-[40%] cursor-pointer  hover:bg-gray-300"><i class="fa-brands fa-linkedin-in"></i></div>
+                <div class="size-10 bg-white rounded-full pt-2 lg:mt-[40%] cursor-pointer  hover:bg-gray-300"><i class="fa-brands fa-facebook-f"></i></div>
               </div><!-- /overlay -->
 
-              <div class="size-24 rounded-full m-auto bg-[url('./assets/team-2.jpg')] bg-cover"></div>
+              <div class="lg:size-24 size-32 rounded-full m-auto -mt-8 lg:mt-0 bg-[url('./assets/team-2.jpg')] bg-cover"></div>
 
             </div>
-            <div class="p-4"> <!-- card-bottom -->
-                <h2 class="pt-4 font-semibold text-2xl tracking-wide">Sophia Bennett</h2>
+            <div class="p-4 pb-24 lg:pb-0"> <!-- card-bottom -->
+                <h2 class="pt-2 lg:pt-4 font-semibold text-2xl tracking-wide">Sophia Bennett</h2>
                 <p class="text-sm font-normal text-pink-800">Smart Contract Engineer</p>
                 <p class="py-4 text-sm">Expert in Solidity development and blockchain security auditing.</p>
             </div>
         </div>
 
-        <div class="flex-1  rounded-3xl shadow-xl hover:shadow-2xl group"> <!-- member3 -->
+        <div class="flex-1  rounded-3xl shadow-xl hover:shadow-2xl scale-90 lg:scale-100 group"> <!-- member3 -->
             <div class="h-3/5 bg-white rounded-t-3xl pt-24 bg-gradient-to-tl from-blue-400 via-sky-200 to-sky-500 relative "> <!-- card-top -->
               <div class="absolute z-3 top-0 left-0 bg-blue-700/80 size-full text-blue-600 flex gap-x-4 rounded-t-3xl opacity-0 group-hover:opacity-100 transition-all duration-500"><!-- overlay -->
-                <div class="size-10 bg-white rounded-full pt-2 ml-[25%] mt-[40%] cursor-pointer hover:bg-gray-300"><i class="fa-brands fa-x-twitter"></i></div>
-                <div class="size-10 bg-white rounded-full pt-2 mt-[40%] cursor-pointer hover:bg-gray-300"><i class="fa-brands fa-linkedin-in"></i></div>
-                <div class="size-10 bg-white rounded-full pt-2 mt-[40%] cursor-pointer hover:bg-gray-300"><i class="fa-brands fa-facebook-f"></i></div>
+                <div class="size-10 bg-white rounded-full pt-2 lg:ml-[25%] lg:mt-[40%] cursor-pointer hover:bg-gray-300"><i class="fa-brands fa-x-twitter"></i></div>
+                <div class="size-10 bg-white rounded-full pt-2 lg:mt-[40%] cursor-pointer hover:bg-gray-300"><i class="fa-brands fa-linkedin-in"></i></div>
+                <div class="size-10 bg-white rounded-full pt-2 lg:mt-[40%] cursor-pointer hover:bg-gray-300"><i class="fa-brands fa-facebook-f"></i></div>
               </div><!-- /overlay -->
 
-              <div class="size-24 rounded-full m-auto bg-[url('./assets/team-3.jpg')] bg-cover"></div>
+              <div class="lg:size-24 size-32 rounded-full m-auto -mt-8 lg:mt-0 bg-[url('./assets/team-3.jpg')] bg-cover"></div>
               
             </div>
-            <div class="p-4"> <!-- card-bottom -->
-                <h2 class="pt-4 font-semibold text-2xl tracking-wide">Michael Chen</h2>
+            <div class="p-4 pb-24 lg:pb-0"> <!-- card-bottom -->
+                <h2 class="pt-2 lg:pt-4 font-semibold text-2xl tracking-wide">Michael Chen</h2>
                 <p class="text-sm font-normal text-blue-700">Web3 Developer</p>
                 <p class="py-4 text-sm">Building decentralized applications with React, Next.js, and Web3.</p>
             </div>
         </div>
 
-        <div class="flex-1  rounded-3xl shadow-xl hover:shadow-2xl group"> <!-- member4 -->
+        <div class="flex-1  rounded-3xl shadow-xl hover:shadow-2xl scale-90 lg:scale-100 group"> <!-- member4 -->
             <div class="h-3/5 rounded-t-3xl pt-24 bg-gradient-to-tl from-pink-400 via-purple-300 to-fuchsia-400 relative "> <!-- card-top -->
               <div class="absolute z-3 top-0 left-0 bg-pink-600/80 size-full text-blue-600 flex gap-x-4 rounded-t-3xl opacity-0 group-hover:opacity-100 transition-all duration-500"><!-- overlay -->
-                <div class="size-10 bg-white rounded-full pt-2 ml-[25%] mt-[40%] cursor-pointer hover:bg-gray-300"><i class="fa-brands fa-x-twitter"></i></div>
-                <div class="size-10 bg-white rounded-full pt-2 mt-[40%] cursor-pointer hover:bg-gray-300"><i class="fa-brands fa-linkedin-in"></i></div>
-                <div class="size-10 bg-white rounded-full pt-2 mt-[40%] cursor-pointer hover:bg-gray-300"><i class="fa-brands fa-facebook-f"></i></div>
+                <div class="size-10 bg-white rounded-full pt-2 lg:ml-[25%] lg:mt-[40%] cursor-pointer hover:bg-gray-300"><i class="fa-brands fa-x-twitter"></i></div>
+                <div class="size-10 bg-white rounded-full pt-2 lg:mt-[40%] cursor-pointer hover:bg-gray-300"><i class="fa-brands fa-linkedin-in"></i></div>
+                <div class="size-10 bg-white rounded-full pt-2 lg:mt-[40%] cursor-pointer hover:bg-gray-300"><i class="fa-brands fa-facebook-f"></i></div>
               </div><!-- /overlay -->
 
-              <div class="size-24 rounded-full m-auto bg-[url('./assets/team-4.jpg')] bg-cover"></div>
+              <div class="lg:size-24 size-32 rounded-full m-auto -mt-8 lg:mt-0 bg-[url('./assets/team-4.jpg')] bg-cover"></div>
 
             </div>
-            <div class="p-4"> <!-- card-bottom -->
-                <h2 class="pt-4 font-semibold text-2xl tracking-wide">Emma Rodriguez</h2>
+            <div class="p-4 pb-24 lg:pb-0"> <!-- card-bottom -->
+                <h2 class="pt-2 lg:pt-4 font-semibold text-2xl tracking-wide">Emma Rodriguez</h2>
                 <p class="text-sm font-normal text-pink-800">Security Researcher</p>
                 <p class="py-4 text-sm">Focused on blockchain penetration testing and protocol security.</p>              
             </div>
@@ -251,19 +251,19 @@
 
 
   <footer class="bg-cyan-950 mt-8" id="contact" >
-    <div class=" w-full h-screen container m-auto">
-        <div class= "  size-full h-[85%] flex flex-wrap gap-x-10 pb-8 pt-14"><!-- parent -->
+    <div class=" w-full lg:h-screen container m-auto">
+        <div class= "lg:size-full h-[85%] flex flex-col lg:flex-row lg:flex-wrap gap-x-10 pb-8 pt-14"><!-- parent -->
 
-          <div class="flex-1 h-[100%] p-8 bg-slate-700/60 rounded-3xl shadow-2xl "> <!-- left -->
-            <h2 class="pb-6 pt- font-bold text-2xl text-slate-100">Need Any Assist?</h2>
-            <form method="get" class="flex flex-wrap flex-col gap-y-6 rounde tracking-wider ">
-                <input type="text" class="p-4 rounded-lg bg-slate-900/60 shadow-2xl shadow-slate-900 text-slate-200 focus:outline-blue-400" placeholder="What should we call you?">
-                <input type="email" class="p-4 rounded-lg bg-slate-900/60 shadow-2xl shadow-slate-900 text-slate-200 focus:outline-blue-400" placeholder="Your email address">
-                <textarea cols="50" rows="6" class="p-4 rounded-lg resize-none bg-slate-900/60 shadow-2xl shadow-slate-900 text-slate-200 focus:outline-blue-400" placeholder="Write your message here..." ></textarea>
+          <div class="flex-1 h-[100%] p-8 pt-5 lg:pt-0 bg-slate-700/60 rounded-3xl shadow-2xl hover:ring-2 ring-cyan-400 transition-all duration-300 scale-90 lg:scale-100"> <!-- left -->
+            <h2 class="lg:pb-6 pb-4 font-bold text-2xl text-slate-100">Need Any Assist?</h2>
+            <form method="get" class="flex lg:flex-wrap flex-col gap-y-4 lg:gap-y-6 rounde tracking-wider">
+                <input type="text" class="p-4 rounded-lg bg-slate-900/60 lg:shadow-2xl shadow-slate-900 text-slate-200 focus:ring-2 ring-cyan-600 outline-none border-none" placeholder="What should we call you?">
+                <input type="email" class="p-4 rounded-lg bg-slate-900/60 lg:shadow-2xl shadow-slate-900 text-slate-200 focus:ring-2 ring-cyan-600 outline-none border-none" placeholder="Your email address">
+                <textarea cols="50" rows="6" class="p-4 rounded-lg resize-none bg-slate-900/60 lg:shadow-2xl shadow-slate-900 text-slate-200 focus:ring-2 ring-cyan-600 outline-none border-none " placeholder="Write your message here..." ></textarea>
 
-                <button type="submit" data-message="Message sent! Please check your inbox later." class="bg-cyan-500 text-white font-mono font-bold p-4 rounde rounded-xl relative 
+                <button type="submit" data-message="Message sent! Please check your inbox later." data-msg-phone="Message sent!" class="bg-cyan-500 text-white font-mono font-bold p-4 rounde rounded-xl hover:bg-cyan-600 focus:scale-95 relative 
                                       after:absolute after:top-0 after:left-0  after:size-full after:z-10
-                                    after:bg-lime-700 after:rounded-xl after:text-center after:pt-4 after:hidden after:content-[attr(data-message)] focus:after:block">Send</button>
+                                    after:bg-lime-700 after:rounded-xl after:text-center after:pt-4 after:hidden lg:after:content-[attr(data-message)] after:content-[attr(data-msg-phone)] focus:after:block">Send Message</button>
             </form>
           </div><!-- /left -->
 
@@ -306,9 +306,9 @@
         </div> <!-- /parent -->
 
         <!-- copy and socials -->
-        <div class="flex items-center justify-between mt-14">
-          <span class="text-md text-slate-300">© 2026 ChainNova. All rights reserved.</span>
-          <div class="text-xl text-slate-400 flex gap-x-4 ">
+        <div class="flex items-start justify-between lg:mt-14 p-2">
+          <span class="lg:text-md text-xs text-slate-300 -mt-8 lg:mt-0">© 2026 ChainNova. All rights reserved.</span>
+          <div class="text-xl text-slate-400 flex lg:gap-x-4 gap-x-2 -mt-10 lg:mt-0">
             <a href=""><i class="fa-brands fa-facebook-f hover:text-slate-50"></i></a>
             <a href=""><i class="fa-brands fa-x-twitter hover:text-slate-50"></i></a>
             <a href=""><i class="fa-brands fa-linkedin-in hover:text-slate-50"></i></a>
@@ -317,7 +317,7 @@
         </div>
 
     </div><!-- /container -->
-    <div class="relative -top-20 w-full border-t border-slate-600"></div>
+    <div class="relative -top-16 w-full border-t border-slate-600"></div> <!-- line -->
   </footer>
 
 
