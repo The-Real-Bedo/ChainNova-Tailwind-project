@@ -14,16 +14,6 @@ The goal of this project was to practice building real-world responsive layouts,
 
 ---
 
-## 📸 Preview
-
-> Add a screenshot here later.
-
-```md
-assets/preview.png
-```
-
----
-
 ## ✨ Features
 
 - Fully Responsive Design
